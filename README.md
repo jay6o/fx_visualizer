@@ -16,17 +16,17 @@ You can also just hardcode your personal information if you don't plan on sharin
 
   
 
--  Clone the repo to your machine
+- ### Clone the repo to your machine
   
 - `git clone <this_repo_URL>`  
 
 
-- Install Python dependencies using the requirements.txt provided
+- ### Install Python dependencies using the requirements.txt provided
 
 - `cd /path/to/repo`
 
 - `pip install -r requirements.txt`
 
-- Run the program
+- ### Run the program
 
 - `python3 main.py`
