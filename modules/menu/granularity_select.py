@@ -9,11 +9,12 @@ def granularity_select(name, system):
             granularity = granularities[granularity]
             return granularity
         except KeyError:
-          print("\nPlease select one of the options provided...")
-          return(granularity_select())
+          return(granularity_select(name, system))
         except Exception as e:
           print("\n", type(e).__name__)
-          return (granularity_select())
+          return (granularity_select(name, system))
     except ValueError:
-        print("\nPlease select one of the options provided...")
-        return(granularity_select())
+        return(granularity_select(name, system))
+    except Exception as e:
+        print(type(e))
+        return(granularity_select(name, system))

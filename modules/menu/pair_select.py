@@ -9,17 +9,13 @@ def pair_select(name, system):
             pair = pairs[pair]
             return pair
         except KeyError:
-            print("\nPlease select one of the provided options...")
-            return (pair_select())
+            return (pair_select(name, system))
         except Exception as e:
-            print("\n", type(e).__name__)
-            return (pair_select())
+            return (pair_select(name, system))
     except ValueError:
-        print("\nPlease select one of the provided options...")
-        return (pair_select())
+        return (pair_select(name, system))
     except KeyError:
-        print("\nPlease select one of the provided options...")
-        return(pair_select())
+        return(pair_select(name, system))
     except Exception as e:
         print("\n", type(e))
-        return (pair_select())
+        return (pair_select(name, system))
