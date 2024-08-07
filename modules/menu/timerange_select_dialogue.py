@@ -8,10 +8,10 @@ def timerange_select_dialogue(timeranges, dialogue, option1, option2, option3):
             timerange = options[timerange]
             return timerange
         except KeyError:
-            return(timerange_select(granularity))
+            return(timerange_select_dialogue(timeranges, dialogue, option1, option2, option3))
         except Exception as e:
-            return(timerange_select(granularity))
+            return(timerange_select_dialogue(timeranges, dialogue, option1, option2, option3))
     except ValueError:
-        return(timerange_select(granularity))
+            return(timerange_select_dialogue(timeranges, dialogue, option1, option2, option3))
     except Exception as e:
-        return (timerange_select(granularity))
+            return(timerange_select_dialogue(timeranges, dialogue, option1, option2, option3))
