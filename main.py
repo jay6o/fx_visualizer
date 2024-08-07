@@ -9,9 +9,7 @@ from modules.helpers.visualize import visualize
 
 if __name__ == "__main__":
     information = menu()
-    pair = information[0]
-    granularity = information[1]
     get_data(requests, json, information[0], information[1], information[2], information[3])
     df = preprocess(json, pandas, "data.json")
-    visualize(df, mplfinance, pair, granularity)
+    visualize(df, mplfinance, information[0], information[1])
 #%%
