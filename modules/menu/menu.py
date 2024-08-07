@@ -8,7 +8,5 @@ def menu():
     granularity = granularity_select()
     timerange = timerange_select(granularity=granularity)
     dates = calculate_daterange(timerange)
-    from_date = dates[0]
-    to_date = dates[1]
-    print(f"Visualizing data for {pair} from {from_date} to {to_date} with {granularity} granularity")
-    return [pair, granularity, from_date, to_date]
+    print(f"\n--Visualizing data for {pair}--\nData: {timerange}\nGranularity: {granularity}")
+    return [pair, granularity, dates[0], dates[1]]

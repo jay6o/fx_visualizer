@@ -9,11 +9,15 @@ def calculate_daterange(timerange):
         case "M5":
             dates = get_daterange_string(datetime, minutes=5)
             return dates
+        case "M10":
+            dates = get_daterange_string(datetime, minutes=10)
+            return dates
         case "M15":
             dates = get_daterange_string(datetime, minutes=15)
             return dates
         case "M30":
             dates = get_daterange_string(datetime, minutes=30)
+            print(dates)
             return dates
         case "1H":
             dates = get_daterange_string(datetime, hours=1)
