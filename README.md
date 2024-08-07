@@ -1,6 +1,6 @@
-# Market Data Visualization  
+# Foreign Exchange Market Visualizer 
 
-This program gets data using the Oanda brokerages API, processes it using pandas, and visualises it through mplfinance. The data is visualized from 2010-2024 in monthly granularity for the GBPJPY foreign exchange pair.
+This program gets data using the Oanda brokerages API, processes it using pandas, and visualises it through mplfinance. The client is able to select from a large variety of exchange pairs, granularities and ranges of data (time) using the CLI menu.
 
 ## Samples
 #### Chart
