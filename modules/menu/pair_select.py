@@ -1,11 +1,10 @@
+from .pairs import pairs
+
 def pair_select():
     try:
         pair = int(input("\n--Select a pair--\n[1] EUR/USD\n[2] USD/JPY\n[3] GBP/USD\n"))
-        options = {1: "EUR_USD",
-                    2: "USD_JPY",
-                    3: "GBP_USD"}
         try:
-            pair = options[pair]
+            pair = pairs[pair]
             return pair
         except KeyError:
             print("\nPlease select one of the provided options...")

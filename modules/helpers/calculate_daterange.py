@@ -17,7 +17,6 @@ def calculate_daterange(timerange):
             return dates
         case "M30":
             dates = get_daterange_string(datetime, minutes=30)
-            print(dates)
             return dates
         case "1H":
             dates = get_daterange_string(datetime, hours=1)
