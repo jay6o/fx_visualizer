@@ -5,9 +5,14 @@ This program gets data using the Oanda brokerages API, processes it using pandas
 ## Samples
 #### Chart
 ![image](https://github.com/user-attachments/assets/173b9438-6994-430e-9a9f-3443680f42cc)
+
 #### JSON data from the brokerages API
 <img width="587" alt="Screenshot 2024-08-02 at 5 16 37 PM" src="https://github.com/user-attachments/assets/a5248305-9617-4c81-b374-b981658889f9">
 
+#### Menu
+<img width="360" alt="Screenshot 2024-08-07 at 6 50 33 PM" src="https://github.com/user-attachments/assets/fd6dec0c-03f7-40a8-9539-3678c6ff7ef9">\
+<img width="250" alt="Screenshot 2024-08-07 at 6 51 28 PM" src="https://github.com/user-attachments/assets/7ac17628-9597-487e-8af2-ef8f8f226853">\
+<img width="184" alt="Screenshot 2024-08-07 at 6 51 46 PM" src="https://github.com/user-attachments/assets/e32a20a5-8515-40b3-9866-c68ee71614cf">
 
 
 ## Usage:
