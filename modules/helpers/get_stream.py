@@ -1,4 +1,4 @@
-from env import DEMO_API_KEY, DEMO_ACC_ID, DEMO_STREAM_URL
+from ..env import DEMO_API_KEY, DEMO_ACC_ID, DEMO_STREAM_URL
 
 def get_stream(requests, json):
     try:
