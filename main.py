@@ -12,9 +12,6 @@ if __name__ == "__main__":
     pair = information[0]
     granularity = information[1]
     get_data(requests, json, information[0], information[1], information[2], information[3])
-    try:
-        df = preprocess(json, pandas, "data.json")
-        visualize(df, mplfinance, pair, granularity)
-    except Exception as e:
-        print(type(e).__name__)
+    df = preprocess(json, pandas, "data.json")
+    visualize(df, mplfinance, pair, granularity)
 #%%
