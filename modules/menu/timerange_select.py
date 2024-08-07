@@ -4,14 +4,13 @@ from .timerange_select_dialogue import timerange_select_dialogue
 def timerange_select(granularity):
 
     match granularity:
-        # Not working
-        case "S5": ## Option 1 & 2: KeyError option 3: no dates being returned
+        case "S5":
             timerange = timerange_select_dialogue(timeranges, "\n--Please select how much time of data you would like--\n[1] 1 Minute\n[2] 5 Minutes\n[3] 10 Minutes\n", timeranges[1], timeranges[2], timeranges[3])
             return timerange
-        case "S30": ## All options malfunctioning (KeyError)
+        case "S30":
             timerange = timerange_select_dialogue(timeranges, "\n--Please select how much time of data you would like--\n[1] 5 Minutes\n[2] 15 Minutes\n[3] 30 Minutes\n", timeranges[2], timeranges[4], timeranges[5])
             return timerange
-        case "M1": ## Option 1 and 2 not working properly (KeyError)
+        case "M1":
             timerange = timerange_select_dialogue(timeranges, "\n--Please select how much time of data you would like--\n[1] 10 Minutes\n[2] 30 Minutes\n[3] 1 Hour\n", timeranges[3], timeranges[5], timeranges[6])
             return timerange
         case "M5":
