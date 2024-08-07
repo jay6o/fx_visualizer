@@ -11,7 +11,7 @@ This program gets data using the Oanda brokerages API, processes it using pandas
 
 
 ## Usage:
-If you plan on using this program you must get your own API key from Oanda & create an env file that matches up with the variables used in the existing program.
+If you plan on using this program you must get your own API key from Oanda & enter your information into the `env.template` provided in `/modules`.
 You can also just hardcode your personal information if you don't plan on sharing it.   
 
   
