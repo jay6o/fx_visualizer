@@ -10,4 +10,4 @@ def get_data(requests, json, pair, granularity, from_date, to_date):
                 print("HTTP error: line 4 of /modules/get_data.py")
                 print(r)
   except Exception as e:
-    print(e)
+    print(type(e).__name__, f"Error at line 4 of /helpers/get_data.py")

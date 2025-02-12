@@ -11,7 +11,7 @@ def granularity_select(name, system):
         except KeyError:
           return(granularity_select(name, system))
         except Exception as e:
-          print("\n", type(e).__name__)
+          print(type(e).__name__, f"Error at line 8 of /menu/granularity_select.py")
           return (granularity_select(name, system))
     except ValueError:
         return(granularity_select(name, system))

@@ -26,5 +26,5 @@ def preprocess(json, pd, file):
         # Return the processed DataFrame
         return df
     except Exception as e:
-        print(type(e).__name__, "\nProgram failed unexpectedly...")
+        print(type(e).__name__, "\nProgram failed at line 8 of /modules/helpers/preprocess.py")
 #%%
